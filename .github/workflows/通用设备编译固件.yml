@@ -82,6 +82,10 @@ jobs:
               REPO_URL="https://github.com/Lienol/openwrt"
               REPO_BRANCH="22.03"
               TAGS_NAME="Lienol"
+          elif [[ "${{ inputs.source_branch }}" == *"newwif2"* ]]; then
+              REPO_URL="https://github.com/Lienol/openwrt"
+              REPO_BRANCH="23.05"
+              TAGS_NAME="NewWifi2"
           else
               echo "Unknown source code repository."
               exit 1
