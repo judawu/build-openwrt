@@ -19,7 +19,7 @@ on:
           - lede-master
           - immortalwrt-master
           - Lienol-master
-          - newwifi2
+          - newwif2
       
 env:
   FEEDS_CONF: config/${{ inputs.source_branch }}/feeds.conf.default
