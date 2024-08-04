@@ -83,9 +83,9 @@ jobs:
               REPO_BRANCH="22.03"
               TAGS_NAME="Lienol"
           elif [[ "${{ inputs.source_branch }}" == *"newwif2"* ]]; then
-              REPO_URL="https://github.com/immortalwrt/immortalwrt"
+               REPO_URL="https://github.com/coolsnowwolf/lede"
               REPO_BRANCH="master"
-              TAGS_NAME="NewWifi2"
+              TAGS_NAME="lede"
           else
               echo "Unknown source code repository."
               exit 1
